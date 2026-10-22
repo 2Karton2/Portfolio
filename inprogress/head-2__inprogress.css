@@ -128,9 +128,33 @@ a {
 }
 
 .header {
+    position: relative;
+}
+
+.head-wrapper-main {
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+.back {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    height: 70px;
+    width: 90px;
+    border-radius: 25px;
+    background-color: rgb(35, 35, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    transition: transform 0.2s;
+}
+
+.back:hover {
+    transform: scale(1.07);
 }
 
 .head {
@@ -168,8 +192,125 @@ a {
     margin-bottom: 100px;
     background-color: #232323;
     border-radius: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .firstProgress {
-    
+    height: 90%;
+    width: 45%;
+    background-color: #444;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.title {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 45px;
+    color: white;
+}
+
+.first-div {
+    height: 4px;
+    width: 80%;
+    background-color: #111;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+.img {
+    height: 200px;
+    width: 80%;
+    background-color: #222;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.progressbar {
+    height: 50px;
+    width: 80%;
+    background-color: #121212;
+    border: 3px solid black;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.progressbar__1 {
+    height: 100%;
+    width: 65%;
+    background-color: rgb(19, 19, 114);
+    box-shadow: 10px 0px 15px 7px rgb(19, 19, 114);
+}
+
+.progressbar__text {
+    font-size: 40px;
+    color: rgb(224, 224, 224);
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.secondProgress {
+    height: 90%;
+    width: 45%;
+    background-color: #444;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.progressbar-2 {
+    height: 50px;
+    width: 80%;
+    background-color: #121212;
+    border: 3px solid black;
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-2 {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444
+}
+
+.img__square {
+    position: relative;
+    height: 180px;
+    width: 180px;
+    background-color: yellow;
+    border-radius: 25px;
+}
+
+.square__text {
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+    right: 18px;
+    color: black;
+    font-size: 100px;
+}
+
+.currentstatus {
+    margin: 0px;
+    font-size: 40px;
+    color: rgb(224, 224, 224);
+    margin-bottom: 20px;
+}
+
+.progressbar-2__text {
+    font-size: 40px;
+    color: rgb(224, 224, 224);
+    margin: 0px;
 }
